@@ -1,0 +1,34 @@
+.main-content{
+    color: var(--teal); 
+}
+
+.cards{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.cards img{
+    height: 100px; 
+}
+
+.cards div{
+    background-color: var(--teal);
+    border-radius: 10px; 
+    color: var(--light-text); 
+    padding: 2rem; 
+    width: 15rem;  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center ;
+    gap: 1rem; 
+    text-align: center ;
+    cursor: pointer;
+    margin: 3rem 0; 
+}
+h1{
+    font-size: 2rem; 
+}
+p{
+    font-size: 1.2rem; 
+}

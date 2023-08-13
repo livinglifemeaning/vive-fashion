@@ -1,0 +1,151 @@
+
+.featured{
+  background-color: var(--teal);
+  height: 70vh;  
+  border-radius: 10px; 
+  display: flex; ; 
+  overflow: hidden;  
+  box-shadow: 0px 1px 10px 4px rgba(3,30,33,0.2);
+  width: max-content; 
+}
+
+
+.featured-img img{
+  height: 100%; 
+
+}
+
+.featured-text{
+  padding: 2rem; 
+  display: flex; 
+  flex-direction: column;
+
+}
+
+.dress-name
+{
+
+  font-size: 3rem; 
+  font-weight: 300; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+}
+
+.choices{
+  display: flex; 
+  flex-direction: column; 
+  flex-grow: 1; 
+}
+
+.choice-title{
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  padding-left: 5px; 
+}
+.flex-box{
+  display: flex;  
+}
+.light-label{
+  color: var(--teal);  
+}
+.color-choices label{
+  width: 4rem;
+  height: 4rem;  
+}
+
+label span{
+  position: relative;
+  bottom: 32px;  
+  left: 12px; 
+  font-size: 14px; 
+}
+input[type="radio"]
+{
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 3.2rem; 
+  height: 3.2rem; 
+  border: solid 3px white; 
+  border-radius: 6px; 
+  cursor: pointer; 
+
+}
+
+input[type="radio"]:checked{
+  border:solid 3px var(--yellow); 
+}
+input#white{
+  background-color: #f9eee2;
+}
+
+input#teal{
+  background-color: #3a5e60;
+}
+
+input#rose{
+  background-color: #d0ac9c;
+}
+
+select{
+  background-color: var(--light-text);
+  padding: .2rem; 
+  border-radius: 5px; 
+  color: var(--teal);  
+}
+ 
+.add-item{
+  display: flex; 
+  align-items:start; 
+  justify-content: end;
+  height: 100%;  
+  padding: 2rem; 
+  flex-direction: column;  
+}
+
+.price{
+  font-size:2.5rem;  
+  font-weighT: 300; 
+}
+
+.shopping-bag{
+  cursor: pointer; 
+  background-color: white;
+  border: 0; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 2rem; 
+  border-radius: 10px; 
+  font-size: 1.2rem; 
+  gap: 1rem; 
+  margin-top: 2rem; 
+  color: var(--teal);  
+  border: solid 3px var(--yellow);  
+}
+
+.shopping-bag img{
+  height: 100px; 
+}
+
+.shopping-bag:hover{
+  scale: 1.02; 
+}
+
+.products{
+  margin-top: 2rem; 
+  display: flex; 
+ justify-content: space-between;
+}
+.product-card{
+  height: 60vh; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 0px 1px 10px 4px rgba(3,30,33,0.1);
+  width: 40vh; 
+  cursor: pointer; 
+} 
+.product-card img{
+     object-fit: cover;  
+     height: 100%;  
+}

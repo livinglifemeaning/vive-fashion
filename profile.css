@@ -1,0 +1,40 @@
+.main-content{
+    display: flex; 
+     align-items: center; 
+     justify-content: space-between;
+}
+.profile-pic{
+   border-radius: 50%; 
+   height: 250px; 
+   width: 250px; 
+  object-fit: cover;
+  object-position: 0 0; 
+} 
+p{ 
+    color: var(--teal); 
+}
+
+.welcome{
+    font-size: 1.5rem; 
+}
+
+.purchases {
+    display: flex; 
+    gap: 1rem; 
+}
+.purchases img{
+    height: 200px;  
+    border-radius: 10px; 
+    width: 150px; 
+    object-fit: cover;
+}
+
+.inputs{
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+}
+input{
+    border-radius: 5px; 
+    padding: .5rem;   
+}
